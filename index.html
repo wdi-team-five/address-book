@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HANDLE BARS</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="/js/handlebars-v3.0.3.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+  <h2>HIYA EVERYBADY!</h2>
+  <button id="get-address" type="button">DON'T CLICK THIS BUTTON!</button>
+
+  <script>
+  {{#each addresses}}
+    <li>
+      <h4>{{name}}</h4>
+    </li>
+  {{/each}}
+  </script>
+</body>
+</html>
